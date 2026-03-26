@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "SafeHer",
+    "slug": "safeher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": { "backgroundColor": "#E63946" },
+    "ios": {
+      "bundleIdentifier": "com.safeher.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SafeHer uses location to alert volunteers near you.",
+        "NSMicrophoneUsageDescription": "SafeHer listens for voice distress signals."
+      }
+    },
+    "android": {
+      "package": "com.safeher.app",
+      "permissions": ["ACCESS_FINE_LOCATION", "RECORD_AUDIO", "VIBRATE"]
+    },
+    "plugins": ["expo-font"]
+  }
+}
